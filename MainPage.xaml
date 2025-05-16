@@ -1,0 +1,48 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EstudioAWSApp.MainPage">
+
+    <VerticalStackLayout Padding="30" Spacing="25" VerticalOptions="Center">
+
+        <!-- Porcentaje -->
+        <Label x:Name="PercentageLabel"
+               Text="Progreso: 0.00%"
+               FontSize="14"
+               HorizontalOptions="Center" />
+
+        <!-- Barra de progreso -->
+        <ProgressBar x:Name="ProgressBar"
+                     Progress="0"
+                     HeightRequest="20"
+                     HorizontalOptions="FillAndExpand"
+                     Margin="0,0,0,20" />
+
+        <!-- Cronómetro -->
+        <Label x:Name="TimeLabel"
+               Text="00:00:00"
+               FontSize="48"
+               HorizontalOptions="Center" />
+
+        <!-- Horas acumuladas -->
+        <Label x:Name="HoursLabel"
+               Text="Horas acumuladas: 0 / 2000"
+               FontSize="16"
+               HorizontalOptions="Center"
+               Margin="0,10" />
+
+        <!-- Botones -->
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Button Text="Iniciar" Clicked="OnStartClicked" />
+            <Button Text="Pausar" Clicked="OnPauseClicked" Margin="10,0,0,0"/>
+        </HorizontalStackLayout>
+
+        <!-- Firma -->
+        <Label Text="Creado por jeffont" 
+               FontSize="12"
+               HorizontalOptions="Center"
+               Margin="0,40,0,0"
+               TextColor="Gray" />
+
+    </VerticalStackLayout>
+
+</ContentPage>

@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ReferenceNativeSymbol Include="_SystemNative_Log">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_GetDomainName">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetLatestJapaneseEra">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_InitOrdinalCasingPage">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_CloseSortHandle">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_CompareString">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_IndexOf">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_LastIndexOf">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetSortKey">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_ToAscii">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_ToUnicode">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_NormalizeString">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetCalendars">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetCalendarInfo">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_EnumCalendarInfo">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetJapaneseEraStartDate">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetCalendarInfoNative">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_ChangeCase">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_ChangeCaseInvariant">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_ChangeCaseTurkish">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_ChangeCaseNative">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_ChangeCaseInvariantNative">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetSortHandle">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_StartsWith">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_EndsWith">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_CompareStringNative">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_EndsWithNative">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_IndexOfNative">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_StartsWithNative">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_InitICUFunctions">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_LoadICUData">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetLocaleName">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetLocaleInfoString">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetDefaultLocaleName">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_IsPredefinedLocale">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetLocaleTimeFormat">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetLocaleInfoInt">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetLocaleInfoGroupingSizes">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetLocales">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetLocaleNameNative">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetLocaleInfoStringNative">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetLocaleInfoIntNative">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetLocaleInfoPrimaryGroupingSizeNative">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetLocaleInfoSecondaryGroupingSizeNative">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetLocaleTimeFormatNative">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetLocalesNative">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetTimeZoneDisplayName">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_WindowsIdToIanaId">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_IanaIdToWindowsId">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_ConvertErrorPlatformToPal">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_ConvertErrorPalToPlatform">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_StrErrorR">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_GetErrNo">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_SetErrNo">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_GetNonCryptographicallySecureRandomBytes">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_GetCryptographicallySecureRandomBytes">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_GetSystemTimeAsTicks">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_GetTimestamp">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_LowLevelMonitor_Create">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_LowLevelMonitor_Destroy">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_LowLevelMonitor_Acquire">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_LowLevelMonitor_Release">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_LowLevelMonitor_Wait">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_LowLevelMonitor_Signal_Release">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_Free">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_Malloc">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_GetReadDirRBufferSize">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_ReadDirR">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_SchedGetCpu">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_CreateAutoreleasePool">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_DrainAutoreleasePool">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_Close">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_GetFileSystemType">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_FLock">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_FSync">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_FTruncate">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_GetCpuUtilization">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_GetCwd">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_GetEnv">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_LowLevelMonitor_TimedWait">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_LSeek">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_MkDir">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_MksTemps">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_Open">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_PosixFAdvise">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_FAllocate">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_PRead">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_PReadV">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_PWrite">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_PWriteV">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_Read">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_OpenDir">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_CloseDir">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_ReadLink">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_FStat">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_Stat">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_LStat">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_SysLog">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_Unlink">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_Write">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_SearchPath_TempDirectory">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_SystemNative_iOSSupportVersion">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_xamarin_release_managed_ref">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_xamarin_set_gchandle_with_flags_safe">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_xamarin_UIApplicationMain">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_xamarin_find_protocol_wrapper_type">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_xamarin_is_user_type">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_xamarin_log">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_xamarin_release_block_on_main_thread">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_xamarin_get_block_descriptor">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_xamarin_NativeHandle_objc_msgSend_NativeHandle_exception">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_xamarin_NativeHandle_objc_msgSendSuper_NativeHandle_exception">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+bin/
+obj/
+*.user
+*.suo
+.vscode/
+*.DS_Store
+*.app
+*.pkg
+*.icns
+tiempo.txt
+
